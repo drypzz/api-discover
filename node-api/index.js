@@ -40,6 +40,7 @@ app.route('/api').post((req, res) => {
   users.push({
     id: lastId + 1,
     name: req.body.name,
+    user: req.body.user,
     avatar: req.body.avatar,
     city: req.body.city,
     github: req.body.github
@@ -59,6 +60,7 @@ app.route('/api/id=:id').put((req, res) => {
   const updatedUser = {
     ...user,
     name: req.body.name,
+    user: req.body.user,
     avatar: req.body.avatar,
     city: req.body.city,
     github: req.body.github
