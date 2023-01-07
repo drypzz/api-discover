@@ -25,3 +25,8 @@ Esse projeto foi construído para servir de apoio no estudo de consumo de APIs R
   ```js
   node .
   ```
+ 
+4. Encerrar a aplicação:
+  ```cmd
+  CTRL + C
+  ```
